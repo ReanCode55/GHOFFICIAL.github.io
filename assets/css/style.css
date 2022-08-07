@@ -1,0 +1,622 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none;
+}
+body{
+    background-color: #090619 !important;
+}
+.mobile-menu,
+.nav-mobile{
+    display: none;
+}
+header{
+    width: 100%;
+    background-image: url(../img-header/for-header.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 10px;
+}
+header .top{
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    width: 150px;
+    height: 122px;
+}
+header .logo img{
+    width: 100%;
+    height: 100%;
+}
+header .account{
+    width: 400px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .account .login,
+header .account .register{
+    color: #fff;
+    margin: 0px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 200px;
+}
+header .account .login a,
+header .account .register a{
+    border-radius: 24px;
+    padding: 10px 50px;
+    color: #fff;
+    border: 1px solid #2974b9;
+    box-shadow: inset 0 -2px 0 0 #1859ac;
+    text-shadow: rgb(0 0 0 / 30%) -1px -1px 1px;
+}
+header .account .login a:hover,
+header .account .register a:hover,
+nav .menu form button:hover{
+    background-color: #0080c0;
+    transition: all 0.3s;
+    color: #fff;
+}
+
+nav{
+    width: 100%;
+    background-image: url(../img-header/for-menu.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav .menu{
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .menu ul{
+    margin: 0;
+    padding: 0;
+}
+nav .menu ul li{
+    display: inline-block;
+}
+nav .menu ul li a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 10px 25px;
+    font-weight: 600;
+}
+nav .menu ul li a img{
+    width: 25px;
+    height: 20px;
+}
+
+nav .menu form{
+    width: 400px;
+    /* background-color: aqua; */
+    padding: 10px;
+    position: relative;
+}
+nav .menu form input{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 24px;
+}
+nav .menu form button{
+    position: absolute;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+    right: 10px;
+    border: none;
+    outline: none;
+    border-radius: 100%;
+}
+
+.main-blog-1{
+    width: 100%;
+    background-image: url(../img-header/for-blog-1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+.main-blog-2{
+    width: 100%;
+    background-image: url(../img-header/for-blog-2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+.blog-1,
+.blog-2{
+    width: 1300px;
+    margin: auto;
+    padding: 0px;
+}
+.blog-1::after,
+.blog-2::after,
+.blog-3::after,
+footer .main-box::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+.blog-1 .column-1,
+.blog-2 .column-1{
+    width: 413px;
+    float: left;
+    margin: 10px;
+}
+.blog-1 .column-1 .box-1,
+.blog-2 .column-1 .box-1{
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+}
+.blog-1 .column-1 .box-1 .images,
+.blog-2 .column-1 .box-1 .images{
+    width: 100%;
+    height: 217px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.blog-1 .column-1 .box-1 .images img,
+.blog-1 .column-1 .box-2 .images img,
+.blog-1 .column-1 .box-3 .images img,
+.blog-2 .column-1 .box-1 .images img,
+.blog-2 .column-1 .box-2 .images img,
+.blog-2 .column-1 .box-3 .images img,
+.blog-3 .box .images img{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s;
+    border-radius: 10px;
+}
+.blog-1 .column-1 .box-1 .images img:hover,
+.blog-1 .column-1 .box-2 .images img:hover,
+.blog-1 .column-1 .box-3 .images img:hover,
+.blog-2 .column-1 .box-1 .images img:hover,
+.blog-2 .column-1 .box-2 .images img:hover,
+.blog-2 .column-1 .box-3 .images img:hover,
+.blog-3 .box .images img:hover{
+    transform: scale(1.1);
+}
+.blog-1 .column-1 .box-2,
+.blog-1 .column-1 .box-3,
+.blog-2 .column-1 .box-2,
+.blog-2 .column-1 .box-3{
+    width: 50%;
+    float: left;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+.blog-1 .column-1 .box-2 .images,
+.blog-1 .column-1 .box-3 .images,
+.blog-2 .column-1 .box-2 .images,
+.blog-2 .column-1 .box-3 .images{
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.blog-1 .column-1 .box-2 .images img,
+.blog-1 .column-1 .box-3 .images img,
+.blog-2 .column-1 .box-2 .images img,
+.blog-2 .column-1 .box-3 .images img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.main-blog-3{
+    width: 100%;
+    padding: 0;
+    background-image: url(../img-header/for-blog-3.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+.blog-3{
+   width: 1300px;
+   margin: auto;
+   padding: 5px;
+}
+.blog-3 .box{
+    width: 205px;
+    float: left;
+    margin: 5px;
+    border-radius: 10px;
+}
+.blog-3 .box .images{
+    width: 100%;
+    height: 145px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.blog-3 .box .images img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.trending{
+    width: 100%;
+    padding: 10px;
+}
+.trending img{
+    width: 150px;
+    height: 112px;
+    margin: 0px 10px;
+}
+#gif{
+    width: 100px;
+    margin-right: -17px;
+}
+footer{
+    width: 100%;
+    background-image: url(../img-header/for-header.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+footer .main-box{
+    width: 1300px;
+    margin: auto;
+    padding: 10px 0px;
+}
+footer .main-box .logo{
+    width: 150px;
+    height: 122px;
+    float: left;
+}
+footer .main-box .logo img{
+    width: 100%;
+    height: 100%;
+}
+footer .main-box .about-us{
+    width: 900px;
+    margin: 0px 25px;
+    float: left;
+    text-align: center;
+}
+footer .main-box .about-us h6{
+    font-size: 22px;
+    color: #fff;
+    font-weight: bold;
+}
+footer .main-box .about-us p{
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+}
+footer .main-box .follow-us{
+    width: 200px;
+    float: left;
+    text-align: center;
+}
+footer .main-box .follow-us h6{
+    font-size: 22px;
+    color: #fff;
+    font-weight: bold;
+}
+footer .main-box .follow-us i{
+    font-size: 20px;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #2974b9;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: transform 0.3s;
+}
+footer .main-box .follow-us .fa-facebook:hover{
+    background-color: #0000ff;
+    transform: scale(1.1);
+}
+footer .main-box .follow-us .fa-telegram:hover{
+    background-color: #2974b9;
+    transform: scale(1.1);
+}
+footer .main-box .follow-us .fa-youtube:hover{
+    background-color: #d50000;
+    transform: scale(1.1);
+}
+
+
+
+
+/* page fishing */
+.main-page-fishing{
+    width: 100%;
+    padding: 0px;
+    display: inline-block;
+}
+.main-page-fishing .page::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+.main-page-fishing .page{
+    width: 1300px;
+    margin: auto;
+}
+.main-page-fishing .page .box{
+    width: 205px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+}
+.main-page-fishing .page .box .images{
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.main-page-fishing .page .box .images img{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s;
+    border-radius: 20px;
+}
+.main-page-fishing .page .box .images img:hover{
+    transform: scale(1.1);
+}
+
+
+/* page poker card */
+.main-page-poker-card{
+    width: 100%;
+    padding: 0px;
+    display: inline-block;
+}
+.main-page-poker-card .page::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+.main-page-poker-card .page{
+    width: 1300px;
+    margin: auto;
+}
+.main-page-poker-card .page .box{
+    width: 205px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+}
+.main-page-poker-card .page .box .images{
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.main-page-poker-card .page .box .images img{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s;
+    border-radius: 20px;
+}
+.main-page-poker-card .page .box .images img:hover{
+    transform: scale(1.1);
+}
+
+
+/* page poker slot */
+.main-page-slot{
+    width: 100%;
+    padding: 0px;
+}
+.main-page-slot .page{
+    width: 1300px;
+    margin: auto;
+    display: table;
+    content: "";
+    clear: both;
+}
+.main-page-slot .page .box{
+    width: 205px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+    float: left;
+}
+.main-page-slot .page .box .images{
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.main-page-slot .page .box .images img{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s;
+    border-radius: 20px;
+}
+.main-page-slot .page .box .images img:hover{
+    transform: scale(1.1);
+}
+
+/* page download */
+.main-page-download{
+    width: 100%;
+    display: inline-block;
+    padding: 0px;
+}
+.main-page-download .page::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+.main-page-download .page{
+    width: 1300px;
+    margin: auto;
+}
+.main-page-download .page .box{
+    width: 170px;
+    margin: 5px;
+    padding: 5px;
+    float: left;
+    border-radius: 20px;
+}
+.main-page-download .page .box .images{
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.main-page-download .page .box .images img{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s;
+    border-radius: 20px;
+}
+.main-page-download .page .box .images img:hover{
+    transform: scale(1.1);
+}
+.main-page-download .page .box .link{
+    width: 100%;
+}
+.main-page-download .page .box .link img{
+    width: 100%;
+    height: 45px;
+    margin: 5px 0px;
+    border-radius: 10px;
+}
+
+
+/* user register */
+.main-user-register{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 200;
+    background-color: #1858ac69;
+    display: none;
+}
+.main-user-register .user-register{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    width: 700px;
+    background-color: #0063d5;
+    padding: 40px;
+    border-radius: 10px;
+}
+.main-user-register .user-register h1{
+    text-align: center;
+    font-size: 33px;
+    font-weight: bold;
+    color: #fff;
+}
+.main-user-register .user-register i{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+.main-user-register .user-register label{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    padding-top: 20px;
+}
+.main-user-register .user-register input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+.main-user-register .user-register button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #0080c0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+/* user login */
+.main-user-login{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 200;
+    background-color: #1858ac69;
+    display: none;
+}
+.main-user-login .user-login{
+    position: absolute;
+    top: 28%;
+    left: 30%;
+    width: 700px;
+    background-color: #0063d5;
+    padding: 40px;
+    border-radius: 10px;
+}
+.main-user-login .user-login h1{
+    text-align: center;
+    font-size: 33px;
+    font-weight: bold;
+    color: #fff;
+}
+.main-user-login .user-login i{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+.main-user-login .user-login label{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    padding-top: 20px;
+}
+.main-user-login .user-login input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+.main-user-login .user-login button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #0080c0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}

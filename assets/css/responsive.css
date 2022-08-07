@@ -1,0 +1,1732 @@
+@media (min-width: 1025px) and (max-width: 1280px){
+    header,
+    nav{
+        display: block;
+    }
+    .mobile-menu,
+    .nav-mobile{
+        display: none;
+    }
+    header .top{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header .logo{
+        width: 150px;
+        height: 122px;
+    }
+    nav .menu{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav .menu form{
+        width: 300px;
+        /* background-color: aqua; */
+        padding: 10px;
+        position: relative;
+    }
+    .blog-1,
+    .blog-2{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .blog-1 .column-1,
+    .blog-2 .column-1{
+        width: 33.3%;
+        float: left;
+        margin: 0px;
+        padding: 3px;
+    }
+    .blog-1 .column-1 .box-1 .images,
+    .blog-2 .column-1 .box-1 .images{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .blog-1 .column-1 .box-1 .images img,
+    .blog-2 .column-1 .box-1 .images img{
+        border-radius: 5px;
+    }
+    .blog-1 .column-1 .box-2,
+    .blog-1 .column-1 .box-3,
+    .blog-2 .column-1 .box-2,
+    .blog-2 .column-1 .box-3{
+        width: 50%;
+        float: left;
+        padding: 3px;
+        border-radius: 5px;
+        
+    }
+    .blog-1 .column-1 .box-2 .images,
+    .blog-1 .column-1 .box-3 .images,
+    .blog-2 .column-1 .box-2 .images,
+    .blog-2 .column-1 .box-3 .images{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .blog-1 .column-1 .box-2 .images img,
+    .blog-1 .column-1 .box-3 .images img,
+    .blog-2 .column-1 .box-2 .images img,
+    .blog-2 .column-1 .box-3 .images img{
+        border-radius: 5px;
+    }
+    .blog-3{
+        width: 100%;
+        margin: 0;
+        padding: 5px;
+    }
+    .blog-3 .box{
+         width: 20%;
+         float: left;
+         margin: 0px;
+         padding: 5px;
+         border-radius: 5px;
+    }
+    .blog-3 .box .images{
+         width: 100%;
+         height: 100%;
+         border-radius: 5px;
+         overflow: hidden;
+     }
+     .blog-3 .box .images img{
+        border-radius: 5px;
+     }
+    footer{
+        width: 100%;
+        background-image: url(../img-header/for-header.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: inline-block;
+    }
+    footer .main-box{
+        width: 100%;
+        margin: auto;
+        padding: 10px 0px;
+    }
+    footer .main-box .logo{
+        width: 150px;
+        height: 122px;
+        float: left;
+    }
+    footer .main-box .logo img{
+        width: 100%;
+        height: 100%;
+    }
+    footer .main-box .about-us{
+        width: 680px;
+        margin: 0px 25px;
+        float: left;
+        text-align: center;
+    }
+    footer .main-box .about-us h6{
+        font-size: 22px;
+        color: #fff;
+        font-weight: bold;
+    }
+    footer .main-box .about-us p{
+        font-size: 15px;
+        color: #fff;
+        font-weight: bold;
+    }
+    footer .main-box .follow-us{
+        width: 140px;
+        float: left;
+        text-align: center;
+    }
+    footer .main-box .follow-us h6{
+        font-size: 22px;
+        color: #fff;
+        font-weight: bold;
+    }
+    footer .main-box .follow-us i{
+        font-size: 20px;
+        color: #fff;
+        padding: 10px;
+        border: 1px solid #2974b9;
+        border-radius: 10px;
+        margin-top: 10px;
+        transition: transform 0.3s;
+    }
+    footer .main-box .follow-us .fa-facebook:hover{
+        background-color: #0000ff;
+        transform: scale(1.1);
+    }
+    footer .main-box .follow-us .fa-telegram:hover{
+        background-color: #2974b9;
+        transform: scale(1.1);
+    }
+    footer .main-box .follow-us .fa-youtube:hover{
+        background-color: #d50000;
+        transform: scale(1.1);
+    }
+
+    .main-page-fishing .page{
+        width: 100%;
+        margin: auto;
+    }
+    .main-page-fishing .page .box{
+        width: 20%;
+        float: left;
+        margin: 0px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .main-page-fishing .page .box .images{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .main-page-fishing .page .box .images img{
+        width: 100%;
+        height: 100%;
+        transition: transform 0.3s;
+        border-radius: 5px;
+    }
+
+    .main-page-poker-card .page{
+        width: 100%;
+        margin: auto;
+    }
+    .main-page-poker-card .page .box{
+        width: 20%;
+        float: left;
+        margin: 0px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .main-page-poker-card .page .box .images{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .main-page-poker-card .page .box .images img{
+        width: 100%;
+        height: 100%;
+        transition: transform 0.3s;
+        border-radius: 5px;
+    }
+
+    .main-page-slot{
+        width: 100%;
+        padding: 0px;
+    }
+    .main-page-slot .page{
+        width: 100%;
+        margin: auto;
+        display: table;
+        content: "";
+        clear: both;
+    }
+    .main-page-slot .page .box{
+        width: 20%;
+        margin: 0px;
+        padding: 5px;
+        border-radius: 5px;
+        float: left;
+    }
+    .main-page-slot .page .box .images{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .main-page-slot .page .box .images img{
+        width: 100%;
+        height: 100%;
+        transition: transform 0.3s;
+        border-radius: 5px;
+    }
+    .main-page-slot .page .box .images img:hover{
+        transform: scale(1.1);
+    }
+
+
+    .main-page-download .page{
+        width: 100%;
+        margin: auto;
+    }
+    .main-page-download .page .box{
+        width: 20%;
+        margin: 0px;
+        padding: 5px;
+        float: left;
+        border-radius: 5px;
+    }
+    .main-page-download .page .box .images{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .main-page-download .page .box .images img{
+        border-radius: 5px;
+    }
+    .main-page-download .page .box .link img{
+        width: 100%;
+        height: 100%;
+        margin: 5px 0px;
+        border-radius: 5px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    header,
+    nav{
+        display: block;
+    }
+    .mobile-menu,
+    .nav-mobile{
+        display: none;
+    }
+    header .top{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header .logo{
+        width: 150px;
+        height: 122px;
+    }
+    nav .menu{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav .menu form{
+        width: 300px;
+        /* background-color: aqua; */
+        padding: 10px;
+        position: relative;
+    }
+    .blog-1,
+    .blog-2{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .blog-1 .column-1,
+    .blog-2 .column-1{
+        width: 33.3%;
+        float: left;
+        margin: 0px;
+        padding: 3px;
+    }
+    .blog-1 .column-1 .box-1 .images,
+    .blog-2 .column-1 .box-1 .images{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .blog-1 .column-1 .box-1 .images img,
+    .blog-2 .column-1 .box-1 .images img{
+        border-radius: 5px;
+    }
+    .blog-1 .column-1 .box-2,
+    .blog-1 .column-1 .box-3,
+    .blog-2 .column-1 .box-2,
+    .blog-2 .column-1 .box-3{
+        width: 50%;
+        float: left;
+        padding: 3px;
+        border-radius: 5px;
+        
+    }
+    .blog-1 .column-1 .box-2 .images,
+    .blog-1 .column-1 .box-3 .images,
+    .blog-2 .column-1 .box-2 .images,
+    .blog-2 .column-1 .box-3 .images{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .blog-1 .column-1 .box-2 .images img,
+    .blog-1 .column-1 .box-3 .images img,
+    .blog-2 .column-1 .box-2 .images img,
+    .blog-2 .column-1 .box-3 .images img{
+        border-radius: 5px;
+    }
+    .blog-3{
+        width: 100%;
+        margin: 0;
+        padding: 5px;
+    }
+    .blog-3 .box{
+         width: 20%;
+         float: left;
+         margin: 0px;
+         padding: 5px;
+         border-radius: 5px;
+    }
+    .blog-3 .box .images{
+         width: 100%;
+         height: 100%;
+         border-radius: 5px;
+         overflow: hidden;
+     }
+     .blog-3 .box .images img{
+        border-radius: 5px;
+     }
+    footer{
+        width: 100%;
+        background-image: url(../img-header/for-header.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: inline-block;
+    }
+    footer .main-box{
+        width: 100%;
+        margin: auto;
+        padding: 10px 0px;
+    }
+    footer .main-box .logo{
+        width: 150px;
+        height: 122px;
+        float: left;
+    }
+    footer .main-box .logo img{
+        width: 100%;
+        height: 100%;
+    }
+    footer .main-box .about-us{
+        width: 680px;
+        margin: 0px 25px;
+        float: left;
+        text-align: center;
+    }
+    footer .main-box .about-us h6{
+        font-size: 22px;
+        color: #fff;
+        font-weight: bold;
+    }
+    footer .main-box .about-us p{
+        font-size: 15px;
+        color: #fff;
+        font-weight: bold;
+    }
+    footer .main-box .follow-us{
+        width: 140px;
+        float: left;
+        text-align: center;
+    }
+    footer .main-box .follow-us h6{
+        font-size: 22px;
+        color: #fff;
+        font-weight: bold;
+    }
+    footer .main-box .follow-us i{
+        font-size: 20px;
+        color: #fff;
+        padding: 10px;
+        border: 1px solid #2974b9;
+        border-radius: 10px;
+        margin-top: 10px;
+        transition: transform 0.3s;
+    }
+    footer .main-box .follow-us .fa-facebook:hover{
+        background-color: #0000ff;
+        transform: scale(1.1);
+    }
+    footer .main-box .follow-us .fa-telegram:hover{
+        background-color: #2974b9;
+        transform: scale(1.1);
+    }
+    footer .main-box .follow-us .fa-youtube:hover{
+        background-color: #d50000;
+        transform: scale(1.1);
+    }
+
+    .main-page-fishing .page{
+        width: 100%;
+        margin: auto;
+    }
+    .main-page-fishing .page .box{
+        width: 20%;
+        float: left;
+        margin: 0px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .main-page-fishing .page .box .images{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .main-page-fishing .page .box .images img{
+        width: 100%;
+        height: 100%;
+        transition: transform 0.3s;
+        border-radius: 5px;
+    }
+
+    .main-page-poker-card .page{
+        width: 100%;
+        margin: auto;
+    }
+    .main-page-poker-card .page .box{
+        width: 20%;
+        float: left;
+        margin: 0px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .main-page-poker-card .page .box .images{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .main-page-poker-card .page .box .images img{
+        width: 100%;
+        height: 100%;
+        transition: transform 0.3s;
+        border-radius: 5px;
+    }
+
+    .main-page-slot{
+        width: 100%;
+        padding: 0px;
+    }
+    .main-page-slot .page{
+        width: 100%;
+        margin: auto;
+        display: table;
+        content: "";
+        clear: both;
+    }
+    .main-page-slot .page .box{
+        width: 20%;
+        margin: 0px;
+        padding: 5px;
+        border-radius: 5px;
+        float: left;
+    }
+    .main-page-slot .page .box .images{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .main-page-slot .page .box .images img{
+        width: 100%;
+        height: 100%;
+        transition: transform 0.3s;
+        border-radius: 5px;
+    }
+    .main-page-slot .page .box .images img:hover{
+        transform: scale(1.1);
+    }
+
+
+    .main-page-download .page{
+        width: 100%;
+        margin: auto;
+    }
+    .main-page-download .page .box{
+        width: 20%;
+        margin: 0px;
+        padding: 5px;
+        float: left;
+        border-radius: 5px;
+    }
+    .main-page-download .page .box .images{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .main-page-download .page .box .images img{
+        border-radius: 5px;
+    }
+    .main-page-download .page .box .link img{
+        width: 100%;
+        height: 100%;
+        margin: 5px 0px;
+        border-radius: 5px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    .user-member{
+        width: 165px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .user-login-mobile,
+    .user-register-mobile{
+        width: 60px !important;
+        color: #fff;
+        font-size: 13px;
+        padding: 0px;
+    }
+    .main-user-login{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: 200;
+        background-color: #1858ac69;
+        display: none;
+    }
+    .main-user-login .user-login{
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        background-color: #0063d5;
+        padding: 40px;
+        border-radius: 10px;
+    }
+
+    .main-user-register{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: 200;
+        background-color: #1858ac69;
+        display: none;
+    }
+    .main-user-register .user-register{
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        background-color: #0063d5;
+        padding: 40px;
+        border-radius: 10px;
+    }
+    header,
+    nav{
+        display: none;
+    }
+    .mobile-menu,
+    .nav-mobile{
+        display: block;
+    }
+    .mobile-menu{
+        width: 100%;
+        display: flex;
+        background-image: url(../img-header/for-header.webp);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+    .mobile-menu .logo{
+        width: 100px;
+        height: 85px;
+    }
+    .mobile-menu .logo img{
+        width: 100%;
+        height: 100%;
+    }
+    .mobile-menu a{
+        background-color: #003ec4;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .mobile-menu i{
+        font-size: 20px;
+        color: #fff;
+        font-weight: bold;
+    }
+    .nav-mobile{
+        width: 100px;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 200;
+        background-image: url(../img-header/for-header.webp);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+        transition: 0.2s;
+        display: none;
+    }
+    .nav-mobile .icon{
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #003ec4;
+        border-radius: 10px;
+    }
+    .nav-mobile .icon i{
+        font-size: 20px;
+        color: #fff;
+        font-weight: bold;
+    }
+    .nav-mobile ul{
+        margin-top: 90px;
+        padding: 0;
+    }
+    .nav-mobile ul li{
+        margin: 10px 0px;
+    }
+    .nav-mobile ul li a{
+        font-size: 11px;
+        color: #fff;
+        padding: 10px;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .nav-mobile ul li a img{
+        width: 25px;
+        height: 22px;
+        margin: 6px 0px;
+    }
+    .blog-1,
+    .blog-2{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .blog-1 .column-1,
+    .blog-2 .column-1{
+        width: 33.3%;
+        float: left;
+        margin: 0px;
+        padding: 3px;
+    }
+    .blog-1 .column-1 .box-1 .images,
+    .blog-2 .column-1 .box-1 .images{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .blog-1 .column-1 .box-1 .images img,
+    .blog-2 .column-1 .box-1 .images img{
+        border-radius: 5px;
+    }
+    .blog-1 .column-1 .box-2,
+    .blog-1 .column-1 .box-3,
+    .blog-2 .column-1 .box-2,
+    .blog-2 .column-1 .box-3{
+        width: 50%;
+        float: left;
+        padding: 3px;
+        border-radius: 5px;
+        
+    }
+    .blog-1 .column-1 .box-2 .images,
+    .blog-1 .column-1 .box-3 .images,
+    .blog-2 .column-1 .box-2 .images,
+    .blog-2 .column-1 .box-3 .images{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .blog-1 .column-1 .box-2 .images img,
+    .blog-1 .column-1 .box-3 .images img,
+    .blog-2 .column-1 .box-2 .images img,
+    .blog-2 .column-1 .box-3 .images img{
+        border-radius: 5px;
+    }
+    .blog-3{
+        width: 100%;
+        margin: 0;
+        padding: 5px;
+    }
+    .blog-3 .box{
+         width: 20%;
+         float: left;
+         margin: 0px;
+         padding: 5px;
+         border-radius: 5px;
+    }
+    .blog-3 .box .images{
+         width: 100%;
+         height: 100%;
+         border-radius: 5px;
+         overflow: hidden;
+     }
+     .blog-3 .box .images img{
+        border-radius: 5px;
+     }
+     footer{
+        width: 100%;
+        background-image: url(../img-header/for-header.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: inline-block;
+    }
+    footer .main-box{
+        width: 100%;
+        margin: auto;
+        padding: 10px 0px;
+    }
+    footer .main-box .logo{
+        width: 100px;
+        height: 85px;
+        float: left;
+    }
+    footer .main-box .logo img{
+        width: 100%;
+        height: 100%;
+    }
+    footer .main-box .about-us{
+        width: 470px;
+        margin: 0px 25px;
+        float: left;
+        text-align: center;
+    }
+    footer .main-box .about-us h6{
+        font-size: 22px;
+        color: #fff;
+        font-weight: bold;
+    }
+    footer .main-box .about-us p{
+        font-size: 15px;
+        color: #fff;
+        font-weight: bold;
+    }
+    footer .main-box .follow-us{
+        width: 140px;
+        float: left;
+        text-align: center;
+    }
+    footer .main-box .follow-us h6{
+        font-size: 22px;
+        color: #fff;
+        font-weight: bold;
+    }
+    footer .main-box .follow-us i{
+        font-size: 20px;
+        color: #fff;
+        padding: 10px;
+        border: 1px solid #2974b9;
+        border-radius: 10px;
+        margin-top: 10px;
+        transition: transform 0.3s;
+    }
+    footer .main-box .follow-us .fa-facebook:hover{
+        background-color: #0000ff;
+        transform: scale(1.1);
+    }
+    footer .main-box .follow-us .fa-telegram:hover{
+        background-color: #2974b9;
+        transform: scale(1.1);
+    }
+    footer .main-box .follow-us .fa-youtube:hover{
+        background-color: #d50000;
+        transform: scale(1.1);
+    }
+
+    .main-page-fishing .page{
+        width: 100%;
+        margin: auto;
+    }
+    .main-page-fishing .page .box{
+        width: 20%;
+        float: left;
+        margin: 0px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .main-page-fishing .page .box .images{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .main-page-fishing .page .box .images img{
+        width: 100%;
+        height: 100%;
+        transition: transform 0.3s;
+        border-radius: 5px;
+    }
+
+    .main-page-poker-card .page{
+        width: 100%;
+        margin: auto;
+    }
+    .main-page-poker-card .page .box{
+        width: 20%;
+        float: left;
+        margin: 0px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .main-page-poker-card .page .box .images{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .main-page-poker-card .page .box .images img{
+        width: 100%;
+        height: 100%;
+        transition: transform 0.3s;
+        border-radius: 5px;
+    }
+
+    .main-page-slot{
+        width: 100%;
+        padding: 0px;
+    }
+    .main-page-slot .page{
+        width: 100%;
+        margin: auto;
+        display: table;
+        content: "";
+        clear: both;
+    }
+    .main-page-slot .page .box{
+        width: 20%;
+        margin: 0px;
+        padding: 5px;
+        border-radius: 5px;
+        float: left;
+    }
+    .main-page-slot .page .box .images{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .main-page-slot .page .box .images img{
+        width: 100%;
+        height: 100%;
+        transition: transform 0.3s;
+        border-radius: 5px;
+    }
+    .main-page-slot .page .box .images img:hover{
+        transform: scale(1.1);
+    }
+
+
+    .main-page-download .page{
+        width: 100%;
+        margin: auto;
+    }
+    .main-page-download .page .box{
+        width: 20%;
+        margin: 0px;
+        padding: 5px;
+        float: left;
+        border-radius: 5px;
+    }
+    .main-page-download .page .box .images{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .main-page-download .page .box .images img{
+        border-radius: 5px;
+    }
+    .main-page-download .page .box .link img{
+        width: 100%;
+        height: 100%;
+        margin: 5px 0px;
+        border-radius: 5px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px){
+    .user-member{
+        width: 165px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .user-login-mobile,
+    .user-register-mobile{
+        width: 60px !important;
+        color: #fff;
+        font-size: 13px;
+        padding: 0px;
+    }
+    .main-user-login{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: 200;
+        background-color: #1858ac69;
+        display: none;
+    }
+    .main-user-login .user-login{
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        background-color: #0063d5;
+        padding: 40px;
+        border-radius: 10px;
+    }
+
+    .main-user-register{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: 200;
+        background-color: #1858ac69;
+        display: none;
+    }
+    .main-user-register .user-register{
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        background-color: #0063d5;
+        padding: 40px;
+        border-radius: 10px;
+    }
+    header,
+    nav{
+        display: none;
+    }
+    .mobile-menu,
+    .nav-mobile{
+        display: block;
+    }
+    .mobile-menu{
+        width: 100%;
+        display: flex;
+        background-image: url(../img-header/for-header.webp);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+    .mobile-menu .logo{
+        width: 90px;
+        height: 75px;
+    }
+    .mobile-menu .logo img{
+        width: 100%;
+        height: 100%;
+    }
+    .mobile-menu a{
+        background-color: #003ec4;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .mobile-menu i{
+        font-size: 20px;
+        color: #fff;
+        font-weight: bold;
+    }
+    .nav-mobile{
+        width: 100px;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 200;
+        background-image: url(../img-header/for-header.webp);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+        transition: 0.2s;
+        display: none;
+    }
+    .nav-mobile .icon{
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #003ec4;
+        border-radius: 10px;
+    }
+    .nav-mobile .icon i{
+        font-size: 20px;
+        color: #fff;
+        font-weight: bold;
+    }
+    .nav-mobile ul{
+        margin-top: 90px;
+        padding: 0;
+    }
+    .nav-mobile ul li{
+        margin: 10px 0px;
+    }
+    .nav-mobile ul li a{
+        font-size: 11px;
+        color: #fff;
+        padding: 10px;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .nav-mobile ul li a img{
+        width: 25px;
+        height: 22px;
+        margin: 6px 0px;
+    }
+    .blog-1,
+    .blog-2{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .blog-1 .column-1,
+    .blog-2 .column-1{
+        width: 33.3%;
+        float: left;
+        margin: 0px;
+        padding: 3px;
+    }
+    .blog-1 .column-1 .box-1 .images,
+    .blog-2 .column-1 .box-1 .images{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .blog-1 .column-1 .box-1 .images img,
+    .blog-2 .column-1 .box-1 .images img{
+        border-radius: 5px;
+    }
+    .blog-1 .column-1 .box-2,
+    .blog-1 .column-1 .box-3,
+    .blog-2 .column-1 .box-2,
+    .blog-2 .column-1 .box-3{
+        width: 50%;
+        float: left;
+        padding: 3px;
+        border-radius: 5px;
+        
+    }
+    .blog-1 .column-1 .box-2 .images,
+    .blog-1 .column-1 .box-3 .images,
+    .blog-2 .column-1 .box-2 .images,
+    .blog-2 .column-1 .box-3 .images{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .blog-1 .column-1 .box-2 .images img,
+    .blog-1 .column-1 .box-3 .images img,
+    .blog-2 .column-1 .box-2 .images img,
+    .blog-2 .column-1 .box-3 .images img{
+        border-radius: 5px;
+    }
+    .blog-3{
+        width: 100%;
+        margin: 0;
+        padding: 5px;
+    }
+    .blog-3 .box{
+         width: 33.3%;
+         float: left;
+         margin: 0px;
+         padding: 5px;
+         border-radius: 10px;
+    }
+    .blog-3 .box .images{
+         width: 100%;
+         height: 100%;
+         border-radius: 10px;
+         overflow: hidden;
+     }
+    footer .main-box{
+        width: 100%;
+        margin: ០;
+        padding: 10px 0px;
+    }
+    footer .main-box .logo{
+        width: 90px;
+        height: 75px;
+        float: none;
+        margin: auto;
+    }
+    footer .main-box .logo img{
+        width: 100%;
+        height: 100%;
+    }
+    footer .main-box .about-us{
+        width: 100%;
+        margin: 10px 0px;
+        float: none;
+        padding: 0px 5px;
+        text-align: center;
+    }
+    footer .main-box .about-us h6{
+        font-size: 22px;
+        color: #fff;
+        font-weight: bold;
+    }
+    footer .main-box .about-us p{
+        font-size: 15px;
+        color: #fff;
+        font-weight: bold;
+    }
+    footer .main-box .follow-us{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    footer .main-box .follow-us h6{
+        font-size: 22px;
+        color: #fff;
+        font-weight: bold;
+    }
+    footer .main-box .follow-us i{
+        font-size: 20px;
+        color: #fff;
+        padding: 10px;
+        border: 1px solid #2974b9;
+        border-radius: 10px;
+        margin-top: 10px;
+        transition: transform 0.3s;
+    }
+    footer .main-box .follow-us .fa-facebook:hover{
+        background-color: #0000ff;
+        transform: scale(1.1);
+    }
+    footer .main-box .follow-us .fa-telegram:hover{
+        background-color: #2974b9;
+        transform: scale(1.1);
+    }
+    footer .main-box .follow-us .fa-youtube:hover{
+        background-color: #d50000;
+        transform: scale(1.1);
+    }
+
+    .main-page-fishing .page{
+        width: 100%;
+        margin: auto;
+    }
+    .main-page-fishing .page .box{
+        width: 33.3%;
+        float: left;
+        margin: 0px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .main-page-fishing .page .box .images{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .main-page-fishing .page .box .images img{
+        width: 100%;
+        height: 100%;
+        transition: transform 0.3s;
+        border-radius: 5px;
+    }
+
+    .main-page-poker-card .page{
+        width: 100%;
+        margin: auto;
+    }
+    .main-page-poker-card .page .box{
+        width: 33.3%;
+        float: left;
+        margin: 0px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .main-page-poker-card .page .box .images{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .main-page-poker-card .page .box .images img{
+        width: 100%;
+        height: 100%;
+        transition: transform 0.3s;
+        border-radius: 5px;
+    }
+
+    .main-page-slot{
+        width: 100%;
+        padding: 0px;
+    }
+    .main-page-slot .page{
+        width: 100%;
+        margin: auto;
+        display: table;
+        content: "";
+        clear: both;
+    }
+    .main-page-slot .page .box{
+        width: 33.3%;
+        margin: 0px;
+        padding: 5px;
+        border-radius: 5px;
+        float: left;
+    }
+    .main-page-slot .page .box .images{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .main-page-slot .page .box .images img{
+        width: 100%;
+        height: 100%;
+        transition: transform 0.3s;
+        border-radius: 5px;
+    }
+    .main-page-slot .page .box .images img:hover{
+        transform: scale(1.1);
+    }
+
+
+    .main-page-download .page{
+        width: 100%;
+        margin: auto;
+    }
+    .main-page-download .page .box{
+        width: 33.3%;
+        margin: 0px;
+        padding: 5px;
+        float: left;
+        border-radius: 5px;
+    }
+    .main-page-download .page .box .images{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .main-page-download .page .box .images img{
+        border-radius: 5px;
+    }
+    .main-page-download .page .box .link img{
+        width: 100%;
+        height: 100%;
+        margin: 5px 0px;
+        border-radius: 5px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px){
+    .user-member{
+        width: 165px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .user-login-mobile,
+    .user-register-mobile{
+        width: 60px !important;
+        color: #fff;
+        font-size: 13px;
+        padding: 0px;
+    }
+    .main-user-login{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: 200;
+        background-color: #1858ac69;
+        display: none;
+    }
+    .main-user-login .user-login{
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        background-color: #0063d5;
+        padding: 40px;
+        border-radius: 10px;
+    }
+
+    .main-user-register{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: 200;
+        background-color: #1858ac69;
+        display: none;
+    }
+    .main-user-register .user-register{
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        background-color: #0063d5;
+        padding: 40px;
+        border-radius: 10px;
+    }
+    header,
+    nav{
+        display: none;
+    }
+    .mobile-menu,
+    .nav-mobile{
+        display: block;
+    }
+    .mobile-menu{
+        width: 100%;
+        display: flex;
+        background-image: url(../img-header/for-header.webp);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+    .mobile-menu .logo{
+        width: 85px;
+        height: 70px;
+    }
+    .mobile-menu .logo img{
+        width: 100%;
+        height: 100%;
+    }
+    .mobile-menu a{
+        background-color: #003ec4;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .mobile-menu i{
+        font-size: 20px;
+        color: #fff;
+        font-weight: bold;
+    }
+    .nav-mobile{
+        width: 100px;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 200;
+        background-image: url(../img-header/for-header.webp);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+        transition: 0.2s;
+        display: none;
+    }
+    .nav-mobile .icon{
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #003ec4;
+        border-radius: 10px;
+    }
+    .nav-mobile .icon i{
+        font-size: 20px;
+        color: #fff;
+        font-weight: bold;
+    }
+    .nav-mobile ul{
+        margin-top: 90px;
+        padding: 0;
+    }
+    .nav-mobile ul li{
+        margin: 10px 0px;
+    }
+    .nav-mobile ul li a{
+        font-size: 11px;
+        color: #fff;
+        padding: 10px;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .nav-mobile ul li a img{
+        width: 25px;
+        height: 22px;
+        margin: 6px 0px;
+    }
+    .blog-1,
+    .blog-2{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .blog-1 .column-1,
+    .blog-2 .column-1{
+        width: 100%;
+        float: left;
+        margin: 0px;
+        padding: 5px;
+    }
+    .blog-1 .column-1 .box-1 .images,
+    .blog-2 .column-1 .box-1 .images{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+    .blog-1 .column-1 .box-2,
+    .blog-1 .column-1 .box-3,
+    .blog-2 .column-1 .box-2,
+    .blog-2 .column-1 .box-3{
+        width: 50%;
+        float: left;
+        padding: 5px;
+        border-radius: 10px;
+        
+    }
+    .blog-1 .column-1 .box-2 .images,
+    .blog-1 .column-1 .box-3 .images,
+    .blog-2 .column-1 .box-2 .images,
+    .blog-2 .column-1 .box-3 .images{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+    .blog-3{
+        width: 100%;
+        margin: 0;
+        padding: 5px;
+    }
+    .blog-3 .box{
+         width: 50%;
+         float: left;
+         margin: 0px;
+         padding: 5px;
+         border-radius: 10px;
+    }
+    .blog-3 .box .images{
+         width: 100%;
+         height: 100%;
+         border-radius: 10px;
+         overflow: hidden;
+     }
+    footer .main-box{
+        width: 100%;
+        margin: ០;
+        padding: 10px 0px;
+    }
+    footer .main-box .logo{
+        width: 85px;
+        height: 70px;
+        float: none;
+        margin: auto;
+    }
+    footer .main-box .logo img{
+        width: 100%;
+        height: 100%;
+    }
+    footer .main-box .about-us{
+        width: 100%;
+        margin: 10px 0px;
+        float: none;
+        padding: 0px 5px;
+        text-align: center;
+    }
+    footer .main-box .about-us h6{
+        font-size: 22px;
+        color: #fff;
+        font-weight: bold;
+    }
+    footer .main-box .about-us p{
+        font-size: 15px;
+        color: #fff;
+        font-weight: bold;
+    }
+    footer .main-box .follow-us{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    footer .main-box .follow-us h6{
+        font-size: 22px;
+        color: #fff;
+        font-weight: bold;
+    }
+    footer .main-box .follow-us i{
+        font-size: 20px;
+        color: #fff;
+        padding: 10px;
+        border: 1px solid #2974b9;
+        border-radius: 10px;
+        margin-top: 10px;
+        transition: transform 0.3s;
+    }
+    footer .main-box .follow-us .fa-facebook:hover{
+        background-color: #0000ff;
+        transform: scale(1.1);
+    }
+    footer .main-box .follow-us .fa-telegram:hover{
+        background-color: #2974b9;
+        transform: scale(1.1);
+    }
+    footer .main-box .follow-us .fa-youtube:hover{
+        background-color: #d50000;
+        transform: scale(1.1);
+    }
+
+    .main-page-fishing .page{
+        width: 100%;
+        margin: auto;
+    }
+    .main-page-fishing .page .box{
+        width: 33.3%;
+        float: left;
+        margin: 0px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .main-page-fishing .page .box .images{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .main-page-fishing .page .box .images img{
+        width: 100%;
+        height: 100%;
+        transition: transform 0.3s;
+        border-radius: 5px;
+    }
+
+    .main-page-poker-card .page{
+        width: 100%;
+        margin: auto;
+    }
+    .main-page-poker-card .page .box{
+        width: 33.3%;
+        float: left;
+        margin: 0px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .main-page-poker-card .page .box .images{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .main-page-poker-card .page .box .images img{
+        width: 100%;
+        height: 100%;
+        transition: transform 0.3s;
+        border-radius: 5px;
+    }
+
+    .main-page-slot{
+        width: 100%;
+        padding: 0px;
+    }
+    .main-page-slot .page{
+        width: 100%;
+        margin: auto;
+        display: table;
+        content: "";
+        clear: both;
+    }
+    .main-page-slot .page .box{
+        width: 33.3%;
+        margin: 0px;
+        padding: 5px;
+        border-radius: 5px;
+        float: left;
+    }
+    .main-page-slot .page .box .images{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .main-page-slot .page .box .images img{
+        width: 100%;
+        height: 100%;
+        transition: transform 0.3s;
+        border-radius: 5px;
+    }
+    .main-page-slot .page .box .images img:hover{
+        transform: scale(1.1);
+    }
+
+
+    .main-page-download .page{
+        width: 100%;
+        margin: auto;
+    }
+    .main-page-download .page .box{
+        width: 33.3%;
+        margin: 0px;
+        padding: 5px;
+        float: left;
+        border-radius: 5px;
+    }
+    .main-page-download .page .box .images{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .main-page-download .page .box .images img{
+        border-radius: 5px;
+    }
+    .main-page-download .page .box .link img{
+        width: 100%;
+        height: 100%;
+        margin: 5px 0px;
+        border-radius: 5px;
+    }
+}
